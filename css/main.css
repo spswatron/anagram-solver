@@ -338,5 +338,6 @@ h1 {
 
 .results-container div {
   border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-top: 0.5rem;
   padding-bottom: 1rem;
 }
