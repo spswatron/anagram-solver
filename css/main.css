@@ -341,3 +341,10 @@ h1 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
+.results-container .no-border {
+  border: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+

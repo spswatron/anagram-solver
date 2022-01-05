@@ -27,6 +27,9 @@ const submit = async (e) => {
     for (const word of words) {
         results += `<div>${word}</div>`
     }
+    if (words.length === 0) {
+        results += `<div class="no-border">no anagrams found :(</div>`
+    }
     resultsContainer.innerHTML = results;
 }
 
